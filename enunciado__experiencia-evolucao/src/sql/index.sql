@@ -1,6 +1,7 @@
-CREATE TABLE "posts" (
-	"id" SERIAL PRIMARY KEY,
-	"username" TEXT NOT NULL,
-	"title" TEXT NOT NULL,
-	"body" TEXT NOT NULL
-)
+CREATE TABLE "temp_posts" (
+    "id" SERIAL PRIMARY KEY,
+    "username" TEXT NOT NULL,
+    "title" TEXT NOT NULL,
+    "content" TEXT NOT NULL,
+    "createdAt" DATE NOT NULL
+);

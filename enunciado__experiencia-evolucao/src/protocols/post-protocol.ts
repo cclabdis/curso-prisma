@@ -2,7 +2,8 @@ export type Post = {
   id: number;
   username: string;
   title: string;
-  body: string;
+  content: string;
+  createdAt: string;
 }
 
 export type ApplicationError = {
