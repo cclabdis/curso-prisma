@@ -42,4 +42,4 @@ model orders {
   isDelivered Boolean?  @default(false)
   cakes       cakes?    @relation(fields: [cakeId], references: [id], onDelete: NoAction, onUpdate: NoAction)
   clients     clients?  @relation(fields: [clientId], references: [id], onDelete: NoAction, onUpdate: NoAction)
-}
+  }
