@@ -11,6 +11,9 @@ async function count() {
 
 async function findEmployees() {
   const users = await prisma.student.findMany({
+    include:{
+      job: true
+    },
     where:{
       jobId: null
     },
