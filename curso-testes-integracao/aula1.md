@@ -52,3 +52,66 @@ no package.json add
         "scripts": {
             "test": "jest"
         },
+
+
+**Super Test**
+
+Separar em 
+    *app.ts
+    *server.ts
+
+npm i -D supertest @types/supertest
+
+
+### Exemplos 
+
+ import app from '../src/app.js';
+import supertest from 'supertest';
+
+describe("POST /tasks", () => {
+    it("given a valid task it should return 201", async () => {
+        const body = {
+          title: 'Beber agua',
+          description: 'Beba, agora!',
+        };
+
+        const result = await supertest(app).post("/tasks").send(body);
+        const status = result.status;
+        
+        expect(status).toEqual(201);
+    });
+});
+
+
+describe("POST /tasks", async () => {
+    // ...
+
+    it("given an invalid task it should return 422", () => {
+        const body = {}; // corpo inválido
+        const result = await supertest(app).post("/tasks").send(body);
+        const status = result.status;
+        expect(status).toEqual(422);
+    });
+ 
+    // ...
+});
+
+
+
+describe("POST /tasks", () => {
+    // ...
+
+    it("given a task with duplicate title it should return 409", async  () => {
+        const body = {
+          title: 'Beber agua de novo',
+          description: 'Beba, agora',
+        };
+
+        const firstTry = await supertest(app).post("/tasks").send(body);
+        expect(firstTry.status).toEqual(201); // a primeira inserção vai funcionar
+
+        // se tentarmos criar uma task igual, deve retornar 409
+        const secondTry = await supertest(app).post("/tasks").send(body);
+        expect(secondTry.status).toEqual(409);
+    });
+});

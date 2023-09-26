@@ -5,8 +5,5 @@
         "module": "CommonJS",
         "moduleResolution": "Node",
         "baseUrl": "src",
-    },
-    "ts-node": {
-        "esm": true
     }
 }
