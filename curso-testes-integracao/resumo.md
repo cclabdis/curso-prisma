@@ -24,7 +24,9 @@ Detecção Precoce de Erros: Identificam problemas logo após o desenvolvimento,
 Documentação Viva: Os testes automatizados servem como documentação viva do comportamento esperado do software.
 Ferramentas de Teste Automatizado: Existem diversas ferramentas e frameworks disponíveis para diferentes tipos de testes, como JUnit, Selenium, JIRA, Postman, entre outros.
 
+Comandos uteis
 
+npm i -D jest ts-node ts-jest @types/jest typescript dotenv-cli supertest @types/supertest
 
 # Aula 3
 
@@ -61,6 +63,8 @@ Separar em
     *server.ts
 
 npm i -D supertest @types/supertest
+
+
 
 
 ### Exemplos 
@@ -127,7 +131,7 @@ utilizando bd
 ![Post](image.png)
 ![Get/id Get](image-1.png)
 
-Utilizando banco de dados, os nossos testes causam inconsistencias, neste caso adaptamos nosso c[odigo para lidar. como a função 
+Utilizando banco de dados, os nossos testes causam inconsistencias, neste caso adaptamos nosso código para lidar. como a função 
 
 **beforeAll():** Essa função é executada apenas uma vez, antes de todos os testes no escopo serem iniciados.
 É comumente usada para configurar um ambiente global para os testes.
@@ -141,3 +145,19 @@ Pode ser útil para inicializar variáveis, estabelecer conexões com bancos de 
 É útil para limpar e redefinir o estado após cada teste.
 É comumente usado para liberar recursos, limpar mocks, verificar se houve vazamento de memória, etc.
 e também a utilização de banco de testes.
+  
+
+  Sempre buscar criar cenários para que possamos isolar os testes.
+
+
+## Dotenv-Cli
+```javascript
+"scripts": {
+    "test:load-envs": "dotenv -e .env.test" , 
+    "test": "npm run test:load-envs jest",
+    "test:migration:run": "npm run test:load-envs prisma migrate deploy"
+}
+
+```
+
+Não esquecer de ajustar o apontamento no test
