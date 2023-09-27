@@ -9,4 +9,15 @@ describe("api", () => {
         const { statusCode } = result
         expect(statusCode).toBe(200); //matchers
     });
+
+    it("/numbers", async () => {
+        const result = await server.get("/numbers")
+        expect(result.statusCode).toBe(200);
+        expect(result.body).toHaveLength(5)
+        expect(result.body).toEqual([1, 2 , 3, 4, 5]); //matchers
+        expect(result.body).toContain(3)
+        expect(result.body).toEqual(expect.arrayContaining([1, 3]))
+    });
+
+    
 });

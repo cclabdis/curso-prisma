@@ -65,9 +65,11 @@ npm i -D supertest @types/supertest
 
 ### Exemplos 
 
- import app from '../src/app.js';
+import app from '../src/app.js';
 import supertest from 'supertest';
 
+
+```javascript
 describe("POST /tasks", () => {
     it("given a valid task it should return 201", async () => {
         const body = {
@@ -82,6 +84,8 @@ describe("POST /tasks", () => {
     });
 });
 
+```
+```javascript
 
 describe("POST /tasks", async () => {
     // ...
@@ -96,8 +100,10 @@ describe("POST /tasks", async () => {
     // ...
 });
 
+```
 
 
+```typescript
 describe("POST /tasks", () => {
     // ...
 
@@ -115,3 +121,4 @@ describe("POST /tasks", () => {
         expect(secondTry.status).toEqual(409);
     });
 });
+```
