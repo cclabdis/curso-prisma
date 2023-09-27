@@ -126,3 +126,18 @@ describe("POST /tasks", () => {
 utilizando bd
 ![Post](image.png)
 ![Get/id Get](image-1.png)
+
+Utilizando banco de dados, os nossos testes causam inconsistencias, neste caso adaptamos nosso c[odigo para lidar. como a função 
+
+**beforeAll():** Essa função é executada apenas uma vez, antes de todos os testes no escopo serem iniciados.
+É comumente usada para configurar um ambiente global para os testes.
+Pode ser útil para inicializar variáveis, estabelecer conexões com bancos de dados, iniciar servidores, entre outras ações de configuração que precisam ser feitas apenas uma vez antes dos testes.
+**afterAll():** Similar ao beforeAll(), essa função é executada apenas uma vez, mas após todos os testes terem sido concluídos.
+É frequentemente utilizada para limpar recursos globais, como fechar conexões com bancos de dados, desligar servidores, liberar recursos em uso, etc.
+**beforeEach():** Essa função é executada antes de cada teste no escopo.
+É útil para preparar o estado inicial necessário para cada teste.
+É comumente usado para redefinir variáveis, configurar mocks, criar instâncias de objetos, entre outros.
+**afterEach():** Similar ao beforeEach(), essa função é executada após cada teste no escopo.
+É útil para limpar e redefinir o estado após cada teste.
+É comumente usado para liberar recursos, limpar mocks, verificar se houve vazamento de memória, etc.
+e também a utilização de banco de testes.
