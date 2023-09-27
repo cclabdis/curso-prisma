@@ -122,3 +122,7 @@ describe("POST /tasks", () => {
     });
 });
 ```
+
+utilizando bd
+![Post](image.png)
+![Get/id Get](image-1.png)
