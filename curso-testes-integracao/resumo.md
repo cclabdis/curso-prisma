@@ -24,11 +24,15 @@ Detecção Precoce de Erros: Identificam problemas logo após o desenvolvimento,
 Documentação Viva: Os testes automatizados servem como documentação viva do comportamento esperado do software.
 Ferramentas de Teste Automatizado: Existem diversas ferramentas e frameworks disponíveis para diferentes tipos de testes, como JUnit, Selenium, JIRA, Postman, entre outros.
 
-Comandos uteis
+## Comandos uteis
 
 npm i -D jest ts-node ts-jest @types/jest typescript dotenv-cli supertest @types/supertest
 
 npm i @faker-js/faker --save-dev
+
+
+
+
 # Aula 3
 
 **Jest**
@@ -155,11 +159,13 @@ e também a utilização de banco de testes.
 ```javascript
 "scripts": {
     "test:load-envs": "dotenv -e .env.test" , 
-    "test": "npm run test:load-envs jest",
+    "test": "npm run test:load-envs -- jest -- --coverage --runInBand",
     "test:migration:run": "npm run test:load-envs prisma migrate deploy"
 }
 
-```
+--coverage //olhar a cobertura do test
+--runInBand //nao executar em paralelismo
+ ```
 
 Não esquecer de ajustar o apontamento no test
 
@@ -188,3 +194,4 @@ export async function createRandom(){
     return create(title, author, publisher)
 }
 ```
+
