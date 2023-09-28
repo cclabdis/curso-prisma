@@ -28,6 +28,7 @@ Comandos uteis
 
 npm i -D jest ts-node ts-jest @types/jest typescript dotenv-cli supertest @types/supertest
 
+npm i @faker-js/faker --save-dev
 # Aula 3
 
 **Jest**
@@ -167,3 +168,23 @@ Não esquecer de ajustar o apontamento no test
 
 Dentro de tests criar a factories,
 **test/factories/book-factory.ts**
+
+## Faker
+
+fakerjs.dev
+
+npm i @faker-js/faker --save-dev
+
+import { faker } from '@faker-js/faker';
+
+Sempre ponderar a necessidade de se inserir dados fakes, se ligar nas entidades e relacionamentos
+
+```javascript
+export async function createRandom(){
+    const title = faker.hacker.phrase();
+    const author = faker.person.fullName();
+    const publisher= fake.company.name() ;
+
+    return create(title, author, publisher)
+}
+```
