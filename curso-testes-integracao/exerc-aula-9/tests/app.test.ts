@@ -21,6 +21,11 @@ describe("POST /users tests", () => {
   });
 
   it("should receive 409 when trying to create two users with same e-mail", async () => {
+    await api.post("/users").send({
+      email: "lalalaala@lala.com.br",
+      password: "1234"
+
+    })
     const { status } = await api.post("/users").send({
       email: "lalalaala@lala.com.br",
       password: "1234dfsfd"
@@ -33,6 +38,11 @@ describe("POST /users tests", () => {
 
 describe("GET /users tests", () => {
   it("should return a single user", async () => {
+    const user = await api.post("/users").send({
+      email: "lalalaala@lala.com.br",
+      password: "1234dfsfd"
+
+    })
     // TODO
   });
 

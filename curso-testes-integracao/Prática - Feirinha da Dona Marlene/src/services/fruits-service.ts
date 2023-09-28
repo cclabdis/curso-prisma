@@ -23,7 +23,9 @@ function createFruit(fruit: FruitInput): void {
     throw conflictError();
   }
 
-  fruitsRepository.insertFruit(fruit);
+  const fruitId = fruitsRepository.insertFruit(fruit);
+  return fruitId
+
 }
 
 const fruitsService = {
