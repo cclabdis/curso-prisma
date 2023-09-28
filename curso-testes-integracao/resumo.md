@@ -161,3 +161,9 @@ e também a utilização de banco de testes.
 ```
 
 Não esquecer de ajustar o apontamento no test
+
+
+## Factory
+
+Dentro de tests criar a factories,
+**test/factories/book-factory.ts**
