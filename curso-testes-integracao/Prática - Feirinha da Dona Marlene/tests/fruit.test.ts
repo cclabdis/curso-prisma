@@ -51,8 +51,6 @@ describe("GET /fruits", () => {
 
         const { body } = await server.get(`/fruits/5`)
         expect(body).toEqual({ "id": body.id, "name": body.name, "price": body.price })
-
-
     })
 
     it("should return all fruits if no id is present", async () => {
