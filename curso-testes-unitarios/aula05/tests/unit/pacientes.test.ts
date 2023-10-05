@@ -1,4 +1,5 @@
-import { generateProtocolForPacient } from "protocols-generator";
+import { faker } from "@faker-js/faker";
+import { generateProtocolForPacient } from "../../src/protocols-generator";
 
 jest.mock('uuid', () => ({
   v4: () => 'voucher gerado por mock' //uma string qualquer
@@ -6,13 +7,18 @@ jest.mock('uuid', () => ({
 
 describe("generateProtocolForPacient", () => {
   it("protocol for pacient", async () => {
-    const protocol = generateProtocolForPacient("Juliana", "Alves", true)
+    const firstName = faker.person.firstName()
+    const lastName = faker.person.lastName()
+    const priority = faker.datatype.boolean()
+
+
+    const protocol = generateProtocolForPacient(firstName, lastName, priority)
     expect(protocol).toEqual({
 
-      priority: true,
-      pacient: "Juliana Alves",
+      priority,
+      pacient: `${firstName} ${lastName}`,
       date: expect.any(Date),
-      protocol: expect.any(String)
+      protocol: 'voucher gerado por mock'
     });
   });
 });
