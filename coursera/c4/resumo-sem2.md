@@ -78,3 +78,50 @@ Quais das opções a seguir são práticas recomendadas para executar um UAT efi
 [Correto] Criar casos de teste para cada item que está sendo testado.
 [Correto] Escrever scripts de UAT com base em histórias de usuários.
 [Correto] Definir e anotar os critérios de aceitação.
+
+# DMAIC
+**Definir
+Medir
+Analisar
+Melhorar
+Controlar
+Mapear**
+
+# PDCA
+**Planejamento,
+Fazer - agir,
+Verificar,
+Agir.**
+
+# Questionar
+Qual é a função de um gerente de programa em uma organização?
+Um gerente de programa supervisiona grupos de projetos e se concentra em objetivos de negócios de longo prazo.
+
+
+Os projetos não são o único empreendimento que um gerente de projeto pode participar. Há também programas e portfólios. Um projeto é um empreendimento com um único foco, um programa é uma coleção de projetos, e um portfólio é uma coleção de projetos e programas em toda a organização. Pense assim: projetos podem existir dentro de programas, que podem existir dentro de portfólios. Observe que eu disse "podem", porque nem sempre será o caso. Projetos também podem existir como iniciativas separadas e não relacionadas. 
+
+# Pergunta 1
+Preencha o espaço em branco: _____ é um esforço contínuo para melhorar produtos ou serviços. Começa com um gerente de projeto reconhecendo tarefas e processos que precisam ser criados, eliminados ou melhorados.
+
+[Correto] Melhoria contínua
+
+# Pergunta 2
+Como gerente de projeto, você decide usar uma estrutura de melhoria contínua para ajudar a medir o sucesso. A estrutura escolhida tem uma etapa que envolve a realização de métricas de desempenho e coleta de dados para estabelecer linhas de base. Qual estrutura isso descreve?
+[Correto]DMAIC
+
+# Pergunta 3
+Qual estrutura de melhoria contínua o cenário a seguir representa?
+
+Um gerente de projeto identifica um problema de comunicação contínuo em que um fornecedor não está sendo notificado sobre remessas de produtos. Para corrigir o problema, ele primeiro planeja estratégias de comunicação adicionais. Em seguida, ele implementa uma das estratégias (enviar um e-mail adicional após cada remessa). Em seguida, verifica se o cliente recebeu o e-mail. Por fim, analisa o processo para ajustar e garantir a melhoria contínua.
+[Correto] PDCA
+
+# Pergunta 4
+Qual é a principal diferença entre um programa e um portfólio?
+
+[Correto] Um programa é uma coleção de projetos, enquanto um portfólio é uma coleção de projetos e programas em toda a organização.
+
+# Pergunta 5
+Uma construtora testa uma estratégia para reduzir custos em uma coleção de projetos. Esse experimento faz parte de um objetivo comercial de longo prazo. Qual cargo provavelmente supervisionaria esse teste em vários projetos?
+[Correto] Gerente de programa
+
+
