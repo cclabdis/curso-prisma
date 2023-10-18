@@ -124,4 +124,43 @@ Qual é a principal diferença entre um programa e um portfólio?
 Uma construtora testa uma estratégia para reduzir custos em uma coleção de projetos. Esse experimento faz parte de um objetivo comercial de longo prazo. Qual cargo provavelmente supervisionaria esse teste em vários projetos?
 [Correto] Gerente de programa
 
+# Pergunta 6
+Quais são os três objetivos principais de realizar uma retrospectiva? Selecione todas as opções válidas.
+[Correto] Incentivar a formação de equipes
+[Correto] Promover mudanças positivas em procedimentos e processos futuros
+[Correto] Facilitar a colaboração aprimorada em projetos futuros
+
+
+
+# Pergunta 1
+Um gerente de projeto envia uma pesquisa de equipe anônima para feedback depois que um cliente relata que não está satisfeito com um recurso do produto. Em seguida, o gerente de projeto convoca uma reunião de equipe para discutir o feedback da pesquisa. Durante a reunião, o gerente de projeto pede à equipe que use a linguagem "nós" em vez da linguagem "você". No final da reunião, a equipe discute quais lições levará para o trabalho futuro. 
+
+Quais são as três práticas recomendadas retrospectivas que o gerente de projeto e a equipe estão seguindo?
+
+[Correto] Não apontar culpados entre os colegas de equipe
+[Correto]  Alterar a perspectiva
+[Errado] Usar uma pauta com prazo
+[Correto] Não se concentrar apenas nos pontos negativos 
+
+# Pergunta 2
+Quais são os principais objetivos de uma retrospectiva? Selecione todas as opções válidas.
+[Errado] Eliminar todas as falhas de comunicação da equipe
+[Correto] Incentivar a formação de equipes
+[Correto] Facilitar a colaboração aprimorada 
+[Correto] Promover mudanças positivas
+
+# Pergunta 3
+Quais são algumas das razões típicas para realizar uma retrospectiva? Selecione todas as opções válidas.
+
+[Errado] Um novo projeto foi iniciado
+[Correto] Um sprint chegou ao fim 
+[Correto] Expectativas ou prazos não foram cumpridos
+[Correto] Um novo produto foi entregue
+
+# Pergunta 4
+Preencha a lacuna: Como gerente de projeto, a maneira como você escolhe estruturar sua retrospectiva dependerá do _____.
+[Errado]  orçamento do seu projeto
+[Errado] seu cliente
+[Correto] seu local de trabalho e sua equipe
+[Errado] escopo do seu projeto
 
