@@ -56,3 +56,12 @@ Processar
 Analisar 
 Compartilhar
 Agir*******
+
+
+*um painel*. Um painel é um tipo de interface do usuário, normalmente um gráfico ou uma tabela de resumo, que fornece uma visão instantânea do andamento ou do desempenho do seu projeto. Funciona como um local centralizado para que partes interessadas do projeto esbocem insights rápidos. 
+
+Ele pode exibir um resumo preciso de métricas, estatísticas e indicadores principais de desempenho, ou KPIs. Um KPI é um valor ou uma métrica mensurável que demonstra o quanto uma organização é eficaz ao atingir os objetivos principais. Eles servem como uma grande contribuição para ajudar sua equipe e as partes interessadas a entender se você está no caminho certo. Em outras palavras, eles sinalizam se você está progredindo para alcançar seus critérios de sucesso.
+
+*gráfico de burndown*. Um gráfico de burndown é um gráfico de linhas que mede o tempo em comparação com a quantidade de trabalho feito e à quantidade de trabalho restante. O trabalho excepcional costuma ficar no eixo vertical, com o tempo visualizado horizontalmente. Isso serve como uma boa visualização para ajudar a equipe enxergar a quantidade de tarefas a serem concluídas. Semelhante aos gráficos de linhas, os gráficos de colunas são outro tipo de gráfico famoso usado para sinalizar o desempenho e o progresso do projeto. Os gráficos de colunas são úteis para comparar atividades diferentes ou comparar o progresso ao longo do tempo. 
+
+*Infográficos* são representações visuais de informações, tais como dados ou fatos, e normalmente estão na forma do que chamamos no Google de “página de apresentação” ou “folha de apresentação”. A diferença é que eles são tipicamente resumos concisos desses dados. Isso geralmente é feito principalmente por meio de gráficos ou desenhos, enfatizando os pontos maiores com texto adicionado para mais explicações. Use infográficos para apresentar informações complexas de maneira rápida, profissional e clara, especialmente quando você não estiver presente para mostrar todos os detalhes você mesmo. Os infográficos precisam ser capazes de comunicar informações fortes sem a necessidade de suporte extra e explicação. 
