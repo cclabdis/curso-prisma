@@ -60,3 +60,25 @@ Kanban, XP, LEAN
  Kanban, que se concentra na visualização e no gerenciamento do fluxo; 
  XP, que se preocupa em levar as práticas recomendadas de desenvolvimento de produto ao extremo;
  Lean, que na verdade antecede o Agile e tem como objetivo capturar os princípios fundamentais que eliminam desperdício e entregam valor para os clientes
+
+
+ -- SCRUMMM c5-2
+
+Funções dentro de uma equipe Scrum: o Proprietário do Produto, o Scrum Master e a Equipe de Desenvolvimento
+
+Há tres pilares no scrum: transparencia, inspecao, adaptacao.
+
+Há cinco valores no scrum: Compromisso, coragem, foco, abertur e respeito.
+
+
+Valores do scrum master
+
+
+Habilidades de liderança
+
+Correto
+Scrum Masters devem ter habilidades de liderança.
+        Gerenciamento das partes interessadas
+        Habilidades de facilitação
+        Habilidades de treinamento
+        Habilidades organizacionais
