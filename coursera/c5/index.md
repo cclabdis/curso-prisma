@@ -82,3 +82,26 @@ Scrum Masters devem ter habilidades de liderança.
         Habilidades de facilitação
         Habilidades de treinamento
         Habilidades organizacionais
+
+
+
+Modulo 3
+
+backlog
+        É um artefato vivo
+        É de propriedade e ajustado pelo product owner
+        É uma lista de prioridade de recursos
+
+        Há descrição, valor, ordem e estimativa.
+
+
+User stories
+I>N>V>E>S>T
+Independente
+Negociavel
+Valioso
+Estimavel
+Simples
+Testavel
+
+Epico = colecao de historias de usuários
